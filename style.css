@@ -279,6 +279,13 @@ ul > li {
   .feature-content-container {
     width: 100%;
   }
+
+  .fact-card-container {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
 }
 
 /* Responsive layout for tablet and medium devices */
@@ -312,4 +319,12 @@ ul > li {
   .feature-content-container {
     width: 100%;
   }
+
+  .fact-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
 }
