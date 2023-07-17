@@ -161,6 +161,16 @@ ul > li {
         padding: 0 1rem;
     }
 
+    .team-section-container {
+        flex-direction: column-reverse;
+    }
+
+    .team-img-container {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+        margin-top: 2rem;
+    }
+
 }
 
 /* Responsive layout for tablet and medium devices */
