@@ -21,10 +21,19 @@
 }
 
 /* button related styles */
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
 
 
 
 
+/* shared styles ends */
 
 /* Navigation related styles */
 header {
@@ -52,3 +61,30 @@ ul > li {
     color: var(--dark-text);
     font-weight: 600;
 }
+
+/* banner related styles */
+.banner-container {
+    text-align: center;
+}
+
+.banner-content {
+    width: 51%;
+    margin: 2rem auto;
+}
+
+.banner-title {
+    font-size: 3.3vw;
+    color: var(--dark-text);
+    font-weight: 800;
+}
+
+.banner-desc {
+    color: var(--gray-text);
+    margin: 2rem 0;
+}
+
+.banner-img {
+    width: 80%;
+    padding-bottom: 1rem ;
+}
+
