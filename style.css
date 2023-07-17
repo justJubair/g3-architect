@@ -170,27 +170,55 @@ ul > li {
 }
 
 .ten-year-badge {
-    width: 15rem;
-    height: 8rem;
-    background-color: var(--primary-color);
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    font-size: 1.5rem;
-    color: #fff;
-    border-radius: 10px;
-    position: relative;
-    margin-top: -5rem;
+  width: 15rem;
+  height: 8rem;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 10px;
+  position: relative;
+  margin-top: -5rem;
 }
 
+/* feature ralated styles ends */
 
+/* facts section related styles */
+.fact-container {
+    width: 80%;
+    margin: 5rem auto;
+}
 
+.fact-desc {
+    color: var(--gray-text);
+    width: 50%;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
 
+.fact-card {
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+}
 
+.fact-card h3 {
+    font-size: 2rem;
+    color: rgb(78, 78, 78);
+}
 
+.fact-card p {
+    color: var(--gray-text);
+}
 
-
-
+.fact-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
 
 
 
@@ -245,15 +273,13 @@ ul > li {
 
   .card-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .feature-content-container {
     width: 100%;
   }
-
 }
-
 
 /* Responsive layout for tablet and medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -280,7 +306,7 @@ ul > li {
 
   .card-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .feature-content-container {
